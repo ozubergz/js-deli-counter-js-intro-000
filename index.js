@@ -12,7 +12,7 @@ const nowServing = (line) => {
 }
 
 const currentLine = (newLine) => {
-  if(line.length === 0) {
+  if(newLine.length === 0) {
     return 'There is nobody waiting to be served!'
   }
   // return
