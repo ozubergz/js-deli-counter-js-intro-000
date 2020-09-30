@@ -5,5 +5,5 @@ const takeANumber = (arr, name) => {
 }
 
 const nowServing = (line) => {
-  line.length === 0 ? ''
+  line.length === 0 ? 'There is nobody waiting to be served!' : 
 }
