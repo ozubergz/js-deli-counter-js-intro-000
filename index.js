@@ -22,4 +22,6 @@ const currentLine = (newLine) => {
   for(let i = 0; i < newLine.length; i++) {
     result += ` ${i + 1}. newLine[i]${i === newLine.length - 1 ? '' : ', '}`
   }
+
+  return result;
 }
