@@ -16,7 +16,6 @@ const currentLine = (newLine) => {
     return 'The line is currently empty.'
   }
 
-
   let result = 'The line is currently: '
 
   for(let i = 0; i < newLine.length; i++) {
