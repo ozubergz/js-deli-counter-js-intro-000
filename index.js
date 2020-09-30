@@ -1,3 +1,3 @@
-const takeANumber = () => {
-  
+const takeANumber = (arr, ) => {
+
 }
