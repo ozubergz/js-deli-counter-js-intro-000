@@ -11,9 +11,9 @@ const nowServing = (line) => {
   return `Currently serving ${line.shift()}.`
 }
 
-const currentLine = () => {
+const currentLine = (newLine) => {
   if(line.length === 0) {
     return 'There is nobody waiting to be served!'
   }
-  // return 
+  // return
 }
