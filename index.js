@@ -1,5 +1,5 @@
 const takeANumber = (arr, name) => {
-  let line = [...arr, name];
-  let pos = line.length;
+  arr.push(name)
+  let pos = arr.length;
   return `Welcome, Ada. You are number ${pos} in line.`
 }
