@@ -17,9 +17,9 @@ const currentLine = (newLine) => {
   }
 
 
-  let result = 'The line is currently: '
+  let result = 'The line is currently:'
 
   for(let i = 0; i < newLine.length; i++) {
-    result += `${i + 1}. newLine[i]${i === newLine.length - 1 ? '' : ,}`
+    result += ` ${i + 1}. newLine[i]${i === newLine.length - 1 ? '' : ', '}`
   }
 }
