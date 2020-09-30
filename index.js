@@ -4,6 +4,6 @@ const takeANumber = (arr, name) => {
   return `Welcome, ${name}. You are number ${pos} in line.`
 }
 
-const nowServing = () => {
+const nowServing = (line) => {
   
 }
